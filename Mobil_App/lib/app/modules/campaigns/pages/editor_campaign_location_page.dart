@@ -94,7 +94,7 @@ class _EditorCampaignLocationPageState
                 return BloodTypeInputField(
                   busy: _controller.busy,
                   controller: _bloodTypeController,
-                  label: 'Blood group',
+                  label: 'Blood type',
                   onSaved: (value) {
                     _controller.campaign.bloodType = value;
                   },
